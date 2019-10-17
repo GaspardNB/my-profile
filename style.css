@@ -1,0 +1,86 @@
+body {
+	background-color: #283149;
+	color: #FAFAFA;
+	font-family: 'Abel', sans-serif;
+	text-align:center;
+	font-weight: lighter;
+}
+
+h1, h2 {
+	color: gold;
+	letter-spacing: 8px;
+	font-family: 'Anton', sans-serif;
+}
+
+a {
+	text-decoration-line: none;
+	transition: color 0.3s ease;
+}
+
+
+.container {
+	width: 1000px;
+	margin: 40px auto
+}
+
+@media (max-width: 1000px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 700px) {
+	.container {
+		width: 500px;
+	}
+}
+
+.image-circle {
+	border-radius: 150px
+}
+
+.card-blue {
+	background: #404b69;
+    margin: 20px; 
+    padding: 40px; 
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px #404b69;
+}
+
+.btn-white {
+	background-color: gold;
+	padding: 10px 10px;
+	color: white;
+	border-radius: 10px; 
+	font-size: 20px;
+}
+
+.btn-white:hover {
+	background-color: red;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px; 
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: gold;
+}
+
+.list-inline i:hover {
+	color: red;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
